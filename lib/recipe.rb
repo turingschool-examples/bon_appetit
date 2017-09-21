@@ -1,4 +1,6 @@
+require 'pry'
 class Recipe
+
   attr_reader :name, :ingredients
   
   def initialize(name)
@@ -17,4 +19,5 @@ class Recipe
   def amount_required(ingredient_name)
     @ingredients[ingredient_name]
   end
+
 end
