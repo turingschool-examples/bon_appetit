@@ -63,7 +63,6 @@ class RecipeTest < Minitest::Test
   end
 
   def test_print_shopping_list
-    skip
   r = Recipe.new("Spaghetti")
   r.add_ingredient("Noodles", 10)
   r.add_ingredient("Sauce", 10)
